@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% This Version by Mishkat
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Mishkat}{Ahmad Neyazi}{
+\href{mailto:mishkat.neyazi@gmail.com.com}{mishkat.neyazi@gmail.com} | +91-9319126512 | 
+\href{mailto:mishkat.189402164@muj.manipal.edu}{mishkat.189402164@muj.manipal.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.38\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Manipal University Jaipur}
+\descript{BTech in Electronics and Communication Engineering}
+\location{2018-Present | Jaipur, Rajasthan}
+\location{ CGPA - 8.53/10 }
+\sectionsep
+
+\subsection{DPS, Mathura Road}
+\descript{Senior Secondary}
+\location{CBSE AISSCE}
+\location{ 2016-2018 | New Delhi}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+-Data Structures and Algorithms using C++ \\
+-Digital System Design and HDL \\
+-Computer Organisation and Architecture \\
+-Microprocessors and Micro controllers \\
+-Embedded Systems and RTOS \\
+-Analog Integrated Circuits and Systems \\
+-Economics \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\location{Programming:}
+Python \textbullet{} C++ \textbullet{} C \textbullet{} Embedded C \textbullet{} Verilog  Arduino-C \textbullet{} Bash \textbullet{} Object-oriented Programming\\
+\sectionsep
+
+\location{Software:}
+Matlab \textbullet{} GitHub \textbullet{} Keil uVision \textbullet{} MySQL \textbullet{}  Xilinx Vivado \textbullet{} Visual Studio \textbullet{} MS-Office\\
+\sectionsep
+
+\location{Development Boards:}
+Arduino 
+\sectionsep
+
+\location{Soft Skills:}
+Teamwork \textbullet{} Leadership\textbullet{} Content Writing\\
+\sectionsep
+
+\location{Languages:}
+English \textbullet{} Hindi \textbullet{} Urdu\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Online
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ONLINE COURSES}
+\location{Coursera -} 
+-The Arduino Platform and C Programming\\
+-Python Programming Essentials\\
+-Exploratory Data Analysis with MATLAB\\
+-Introduction to Programming using MATLAB\\
+
+
+\location{IBM - }
+-Data Science Orientation \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.60\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{EXPERIENCE}
+\runsubsection{BSNL}
+\descript{| Summer Trainee }
+\location{June 2021-Present}
+Internship and Vocational training at Regional Telecom Training Centre, Mysore.\\
+\sectionsep
+
+\runsubsection{SEOMantra.Pro}
+\descript{| Technical Content Writer }
+\location{October 2019 - January 2020}
+Writing well-researched technical content and 
+analysing content marketing metrics for clients.\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+\subsection{Forecasting Photo-voltaic System}
+\subsection{Power Generation}
+
+\location{March 2021-May 2021}
+
+\textbullet{}Training Prediction model with data collected using Arduino to develop short-term power forecasting models that can be deployed onsite.
+\sectionsep
+
+\textbullet{}The project contains two modules- Data Collection and Machine Learning Forecasting.
+\sectionsep
+
+Github:// \href{https://github.com/Mukunds0507333/Time-Series_PV-System-Output}{\bf Time-Series-PV-System-Output} \\
+\sectionsep
+
+
+\subsection{Human Detection on Railway Crossing for} \subsection{Railway Safety using IoT}
+
+\location{December 2020}
+\textbullet{}An Arduino based project divided into two parts- railway crossing and obstacle detection system on the track.
+\sectionsep
+
+\textbullet{}Proposing a reliable solution for railway crossings and in turn eliminating manual railway crossings.
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+
+2016	     &International  & International Benchmark Test\\
+2015	     &International  & Global Innovation Summit(Dubai)\\
+
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Extracurricular
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{EXTRACURRICULAR}
+\descript{LITMUS- the Debating, Writing and MUN Club of MUJ} 
+\location{Coordinator}
+\textbullet{}Assisting the literature society in organising various competitions and literary events.\\
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+
+LinkedIn://  \href{https://www.linkedin.com/in/mishkat-ahmad/}{\bf mishkat-ahmad} \\
+Github:// \href{https://github.com/mishkat29}{\bf mishkat29} \\
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
