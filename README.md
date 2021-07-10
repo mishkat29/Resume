@@ -4,4 +4,4 @@ Using free open-source fonts can be compiled using XeTeX and required BibTex for
 
 1- Using Visual Studio Code :- Use .TeX and download extension LaTex Workshop Ver. 8.19.2 by James Yu.
 
-2- Can be compiled online on Overleaf.com
+2- Online :- Can be compiled online on Overleaf.com
